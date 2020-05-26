@@ -54,6 +54,10 @@ public class LanHan{
     private static class LanHanHolder{
         private static final LanHan instance=new LanHan();
     }
+
+
+
+    ////////////////////////
     private LanHan(){}
     public static final LanHan getInstance(){
         return LanHanHolder.instance;
